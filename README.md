@@ -34,7 +34,7 @@ Example: DELETE/farms/101 - delete Farm 101
 
 --> think of rest application programming interface (api) as a doorway between programs that asks for something or performs an action (eg; getting farm records)
 
-A microservice architecture structure will be used (each repository has its own database and each service owns its own data)
+A service based architecture structure will be used (each repository has its own database and each service owns its own data)
 
 
 1st repo: Farm management service (but be more specific what do we do here?)
