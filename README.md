@@ -1,47 +1,27 @@
-# EngSystemsArchitecturePractical4
-Systems Architecture 
+# OzAgriMate Platform – Assignment 4
 
-Assignment 4
-CHECK LIST and description
+ISYS3459 Systems Architecture and Design
 
-8 method + path combinations to be made
+**Team:** Anagha Kulkarni (S4176385), Meryem Postaci (S4165719), Prisha Kapoor (S4172431)
 
-4 http (communication methods) must be used
+A partial C++ implementation of the OzAgriMate platform, using a service-based architecture. It exposes 8 REST endpoints backed by in-memory dummy data (no real database).
 
-GET
-"Show me!"
-Retrieve existing farm records.
-Example: GET/farms - show all farms.
+## Build and run
+```powershell
+cmake -B build
+cmake --build build --config Debug
+.\build\Debug\ozagrimate.exe
+```
+The server runs on `http://localhost:8080`.
 
-POST
-"Add a new one!"
-Create a new farm record.
-Example: POST/farms - add a farm.
-
-PUT
-"Update this one!"
-Replace or update an existing farm record.
-Example: PUT/farm/101 - update Farm 101.
-
-DELETE
-"Remove this one!"
-Delete an existing farm record.
-Example: DELETE/farms/101 - delete Farm 101
-
-8 REST API endpoints must be made
-
---> rest api endpoints make http requests from our OzAgriMate application to our API using **get, post, put, delete** methods
-
---> think of rest application programming interface (api) as a doorway between programs that asks for something or performs an action (eg; getting farm records)
-
-A service based architecture structure will be used (each repository has its own database and each service owns its own data)
-
-
-1st repo: Farm management service (but be more specific what do we do here?)
-
-2nd repo: IoT monitoring service
-
-3rd repo: AI-recommendation service
-
-4th repo: Notification server (alerts reminders messages)
-
+## Endpoints
+| Method | Path | Service |
+|---|---|---|
+| GET | /farms | Farm Management |
+| POST | /farms | Farm Management |
+| PUT | /farms/{id} | Farm Management |
+| DELETE | /farms/{id} | Farm Management |
+| GET | /sensors?farmId={farmId} | IoT Monitoring |
+| POST | /sensors | IoT Monitoring |
+| GET | /recommendations?farmId={farmId} | AI Recommendation |
+| GET | /notifications?userId={userId} | Notification |

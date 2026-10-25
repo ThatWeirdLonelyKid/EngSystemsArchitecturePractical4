@@ -1,0 +1,11 @@
+C:\Users\prish\EngSystemsArchitecturePractical4\src\ai_recommendation_service\data_repository\recommendation_repository.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\recommendation_repository.obj
+C:\Users\prish\EngSystemsArchitecturePractical4\src\ai_recommendation_service\rest_controller\recommendation_controller.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\recommendation_controller.obj
+C:\Users\prish\EngSystemsArchitecturePractical4\src\farm_management_service\controller\farm_controller.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\farm_controller.obj
+C:\Users\prish\EngSystemsArchitecturePractical4\src\farm_management_service\repository\farm_repository.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\farm_repository.obj
+C:\Users\prish\EngSystemsArchitecturePractical4\src\farm_management_service\service\farm_service.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\farm_service.obj
+C:\Users\prish\EngSystemsArchitecturePractical4\src\iot_monitoring_service\reading_service\reading_service.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\reading_service.obj
+C:\Users\prish\EngSystemsArchitecturePractical4\src\iot_monitoring_service\sensor_controller\sensor_controller.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\sensor_controller.obj
+C:\Users\prish\EngSystemsArchitecturePractical4\src\iot_monitoring_service\threshold_evaluator\threshold_evaluator.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\threshold_evaluator.obj
+C:\Users\prish\EngSystemsArchitecturePractical4\src\main.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\main.obj
+C:\Users\prish\EngSystemsArchitecturePractical4\src\notification_service\notification_store\notification_repository.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\notification_repository.obj
+C:\Users\prish\EngSystemsArchitecturePractical4\src\notification_service\rest_controller\notification_controller.cpp;C:\Users\prish\EngSystemsArchitecturePractical4\build\ozagrimate.dir\Debug\notification_controller.obj

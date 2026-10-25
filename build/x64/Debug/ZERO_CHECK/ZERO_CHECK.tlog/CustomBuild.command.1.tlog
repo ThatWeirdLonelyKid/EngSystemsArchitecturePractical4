@@ -1,0 +1,10 @@
+^C:\USERS\PRISH\ENGSYSTEMSARCHITECTUREPRACTICAL4\BUILD\CMAKEFILES\0760F414F47610C823F33AD63FD3D2AD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/prish/EngSystemsArchitecturePractical4 -BC:/Users/prish/EngSystemsArchitecturePractical4/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/prish/EngSystemsArchitecturePractical4/build/OzAgriMate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

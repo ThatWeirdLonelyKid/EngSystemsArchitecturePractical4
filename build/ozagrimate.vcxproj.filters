@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\ai_recommendation_service\data_repository\recommendation_repository.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\ai_recommendation_service\rest_controller\recommendation_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\farm_management_service\controller\farm_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\farm_management_service\repository\farm_repository.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\farm_management_service\service\farm_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\iot_monitoring_service\reading_service\reading_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\iot_monitoring_service\sensor_controller\sensor_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\iot_monitoring_service\threshold_evaluator\threshold_evaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\notification_service\notification_store\notification_repository.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\prish\EngSystemsArchitecturePractical4\src\notification_service\rest_controller\notification_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\prish\EngSystemsArchitecturePractical4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D8500A19-4DCE-3973-AA6F-FD35A5530EF6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

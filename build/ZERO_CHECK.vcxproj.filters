@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\prish\EngSystemsArchitecturePractical4\build\CMakeFiles\0760f414f47610c823f33ad63fd3d2ad\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F0FFCB14-828F-3655-B267-233034F3E74C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
