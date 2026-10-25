@@ -29,7 +29,9 @@ Delete an existing farm record.
 Example: DELETE/farms/101 - delete Farm 101
 
 8 REST API endpoints must be made
+
 --> rest api endpoints make http requests from our OzAgriMate application to our API using **get, post, put, delete** methods
+
 --> think of rest application programming interface (api) as a doorway between programs that asks for something or performs an action (eg; getting farm records)
 
 A microservice architecture structure will be used (each repository has its own database and each service owns its own data)
